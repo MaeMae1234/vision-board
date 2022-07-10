@@ -1,0 +1,81 @@
+body {
+  background: #E8E8E8;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  margin: 50px auto;
+  overflow: auto;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  font-family: 'Montserrat', sans-sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 80px 30px;
+}
+
+.small-block {
+  height: 210px;
+  padding: 20px 30px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.light-bg {
+  background: #ffffff;
+}
+
+.dark-bg {
+  background: #3B3B3B;
+  color: #ffffff;
+}
+
+.center-text {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+span {
+  background: #FFF44F;
+  padding: 5px 15px;
+  font-size: 18px;/*toegevoegd v solution code*/
+}
+
+strong {
+  font-size: 38px;
+  text-transform: capitalize;
+  line-height: 38px; /*toegevoegd v solution code*/
+}
+
+.center-img {
+  text-align: center;
+}
+
+.text-effect {
+  font-family: 'Permanent Marker', sans-serif;
+  font-weight: normal;/*toegevoegd v solution code*/
+}
